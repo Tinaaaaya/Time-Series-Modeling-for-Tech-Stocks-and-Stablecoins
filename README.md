@@ -1,9 +1,10 @@
-[README.md](https://github.com/user-attachments/files/24228744/README.md)
 # Time Series Analysis of Tech Stocks and Stablecoins
 
 ## Research Overview and Methodology
 
 This study analyzes the daily trading data of Apple's stock (AAPL), Nasdaq 100 Index Fund (QQ) and TEDA stable currency (USDT) in the past year, aiming at understanding their income dynamics, volatility characteristics and cross-market correlation. The analysis framework is promoted from univariate characteristic system to multivariate relationship, and logarithmic rate of return is adopted to ensure stationarity and comparability between assets. The methodology system includes descriptive statistics to describe distribution characteristics, Ljung-Box test to evaluate market efficiency under random walk hypothesis, autoregressive model to capture short-term persistence, GARCH norm modeling time-varying volatility, quantification of tail risk exposure of value at risk, and correlation and regression analysis to explore cross-asset dependence.
+
+**This study treats stablecoins as a test case for the transferability of traditional stock-market time-series models, examining whether financial and economic patterns observed in equity markets remain valid under algorithmic price stabilization.**
 
 ## Key Empirical Findings
 
